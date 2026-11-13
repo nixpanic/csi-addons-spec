@@ -48,6 +48,19 @@ a:hover {
   padding: 0 24px;
 }
 
+/* Footer */
+.footer {
+  background: var(--color-code-bg);
+  color: var(--color-text-muted);
+  padding: 32px 0;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.footer a {
+  color: var(--color-primary-light);
+}
+
 /* Navbar */
 .navbar {
   position: fixed;
@@ -214,20 +227,7 @@ a:hover {
   line-height: 1.7;
 }
 
-/* Footer */
-.footer {
-  background: var(--color-code-bg);
-  color: var(--color-text-muted);
-  padding: 32px 0;
-  text-align: center;
-  font-size: 0.85rem;
-}
-
-.footer a {
-  color: var(--color-primary-light);
-}
-
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .nav-links {
     gap: 16px;
   }
