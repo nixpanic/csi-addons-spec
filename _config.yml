@@ -1,0 +1,10 @@
+title: CSI-Addons Specifications
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-default-layout
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
